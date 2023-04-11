@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 @Slf4j
 @SpringBootTest
 class BeatlesSongGeneratorApplicationTests {
@@ -29,6 +31,11 @@ class BeatlesSongGeneratorApplicationTests {
 			log.error("\n--\n");
 		}
 
+	}
+
+	@Test
+	void happyTest() {
+		assertTrue(true);
 	}
 
 }
