@@ -7,7 +7,7 @@ public class Guitar implements SoundGenerator {
 
     @Override
     public String generate(int bar) {
-        return "huuuuuummmmmmmmmmmmmmm";
+        return "Dudelidudeli didididid";
     }
 
 }
